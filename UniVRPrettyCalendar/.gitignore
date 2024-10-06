@@ -4,7 +4,8 @@ target/
 !**/src/test/**/target/
 src/main/resources/zeggiotti/univrprettycalendar/application.properties
 
-../exe_build_cmd.txt
+exe_build_cmd.txt
+icon.ico
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
