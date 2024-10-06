@@ -6,7 +6,6 @@ src/main/resources/zeggiotti/univrprettycalendar/application.properties
 
 exe_build_cmd.txt
 icon.ico
-RuntimeImage/
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
