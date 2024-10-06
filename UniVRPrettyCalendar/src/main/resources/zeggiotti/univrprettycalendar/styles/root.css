@@ -1,0 +1,82 @@
+* {
+    -fx-button-bg: #e7e7e7;
+    -fx-button-pressed: #c3c3c3;
+    -fx-dark: #959DA5;
+    -fx-disabled: rgba(250, 251, 252, 0.45);
+    -fx-modello-bg: #e8e8e8;
+    -fx-row-selected: #cdcdcd;
+    -fx-hyperlink: #5e7e7e;
+    -fx-focus-color: -fx-dark;
+    -fx-faint-focus-color: rgba(149, 157, 165, 0.09);
+}
+
+.button {
+    -fx-background-color: -fx-button-bg;
+    -fx-border-color: -fx-dark;
+    -fx-border-radius: 4px;
+}
+
+.button:pressed {
+    -fx-background-color: -fx-button-pressed;
+    -fx-transition-duration: 0.1s;
+}
+
+.button:disabled {
+    -fx-background-color: -fx-disabled;
+    -fx-border-color: -fx-dark;
+    cursor: default;
+}
+
+.button-chosen, .button-chosen:pressed {
+    -fx-background-color: #d4dddd;
+}
+
+.text-area, .text-area .content, .text-area .viewport, .text-area .text,
+.text-field, .text-field .content, .text-field .viewport, .text-field .text{
+    -fx-background-color: -fx-button-bg;
+    -fx-background-radius: 5px;
+    -fx-text-alignment: left;
+    -fx-accent: -fx-hyperlink;
+}
+
+
+
+.text-field {
+    -fx-border-color: -fx-dark;
+    -fx-border-radius: 5px;
+    -fx-border-width: 1px;
+}
+
+.text-area *.text {
+    -fx-text-alignment: center;
+}
+
+.scroll-bar:vertical,
+.scroll-bar:horizontal {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-bar:vertical .thumb,
+.scroll-bar:horizontal .thumb {
+    -fx-background-color: -fx-dark;
+}
+
+.scroll-bar:vertical .increment-arrow,
+.scroll-bar:vertical .decrement-arrow {
+    -fx-border-color: transparent;
+}
+
+.scroll-pane {
+    -fx-background-color: -fx-background;
+}
+
+.check-box .box {
+    -fx-background-color: -fx-button-bg;
+    -fx-border-color: -fx-dark;
+    -fx-border-radius: 4px;
+}
+
+.check-box:selected .box {
+    -fx-background-color: -fx-button-bg;
+}

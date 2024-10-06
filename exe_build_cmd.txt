@@ -1,0 +1,11 @@
+esecuzione del jar shaded (da target)
+
+java -jar .\UniVRPrettyCalendar-1.0-SNAPSHOT-jar-with-dependencies.jar
+
+costruzione della Runtime image (dopo mvn compile)
+
+& 'C:\Program Files\Java\jdk-19\bin\jlink' --module-path "C:\Users\ettor\Documents\ItellijProjects\UniVRPrettyCalendar\UniVRPrettyCalendar\target;C:\Program Files\Java\javafx-sdk-19\lib;C:\Program Files\Java\jakarta;C:\Program Files\Java\jakarta" --add-modules zeggiotti.univrprettycalendar,javafx.controls,javafx.fxml,jakarta.mail,jakarta.activation --output "C:\Users\ettor\Documents\ItellijProjects\UniVRPrettyCalendar\RuntimeImage" --launcher launch=zeggiotti.univrprettycalendar/zeggiotti.univrprettycalendar.Launcher --compress=2 --strip-debug --no-header-files --no-man-pages
+
+costruzione dell'eseguibile (dopo mvn install)
+
+& 'C:\Program Files\Java\jdk-19\bin\jpackage' --name UniVRPrettyCalendar --input "C:\Users\ettor\Documents\ItellijProjects\UniVRPrettyCalendar\UniVRPrettyCalendar\target" --main-jar "C:\Users\ettor\Documents\ItellijProjects\UniVRPrettyCalendar\UniVRPrettyCalendar\target\UniVRPrettyCalendar-1.0-SNAPSHOT.jar" --main-class zeggiotti.univrprettycalendar.Launcher --runtime-image "C:\Users\ettor\Documents\ItellijProjects\UniVRPrettyCalendar\RuntimeImage" --icon "C:\Users\ettor\Documents\ItellijProjects\UniVRPrettyCalendar\icon.ico" --app-version 2.0 --type exe --dest "C:\Users\ettor\Documents\ItellijProjects\UniVRPrettyCalendar\"
