@@ -1,0 +1,28 @@
+* {
+    -fx-button-bg: #e7e7e7;
+    -fx-button-pressed: #c3c3c3;
+    -fx-dark: #959DA5;
+    -fx-disabled: rgba(250, 251, 252, 0.45);
+    -fx-modello-bg: #e8e8e8;
+    -fx-row-selected: #cdcdcd;
+    -fx-hyperlink: #5e7e7e;
+    -fx-focus-color: -fx-dark;
+    -fx-faint-focus-color: rgba(149, 157, 165, 0.09);
+}
+
+.dialog-pane .button {
+    -fx-background-color: -fx-button-bg;
+    -fx-border-color: -fx-dark;
+    -fx-border-radius: 4px;
+}
+
+.dialog-pane .button:pressed {
+    -fx-background-color: -fx-button-pressed;
+    -fx-transition-duration: 0.1s;
+}
+
+.dialog-pane .button:disabled {
+    -fx-background-color: -fx-disabled;
+    -fx-border-color: -fx-dark;
+    cursor: default;
+}
