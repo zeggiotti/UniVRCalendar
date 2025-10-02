@@ -62,6 +62,10 @@ public class MainController {
                 Main.class.getResource("styles/dialog.css").toExternalForm()
         );
 
+        textInputDialog.getDialogPane().lookupButton(ButtonType.OK).disableProperty().bind(
+                textInputDialog.getEditor().textProperty().isEmpty()
+        );
+
         Optional<String> result = textInputDialog.showAndWait();
 
         result.ifPresent(address -> {

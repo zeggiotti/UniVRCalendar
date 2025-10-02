@@ -138,7 +138,8 @@ public class Prettifier {
 
     private String addSpaces(String s){
         for(int i = 1; i < s.length(); i++){
-            if((Character.isUpperCase(s.charAt(i)) && s.charAt(i - 1) != '[') || s.charAt(i) == '-' || s.charAt(i) == '[' || Character.isDigit(s.charAt(i))){
+            if((Character.isUpperCase(s.charAt(i)) && s.charAt(i - 1) != '[') || s.charAt(i) == '-' || s.charAt(i) == '['
+                    || (Character.isDigit(s.charAt(i)) && Character.isAlphabetic(s.charAt(i - 1)))){
                 s = s.substring(0, i) + " " + s.substring(i);
                 i++;
             }
