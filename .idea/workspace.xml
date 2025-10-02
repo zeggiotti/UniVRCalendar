@@ -52,35 +52,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Exec Main.executor": "Run",
-    "Application.HelloApplication.executor": "Run",
-    "Maven.UniVRPrettyCalendar [clean].executor": "Run",
-    "Maven.UniVRPrettyCalendar [compile].executor": "Run",
-    "Maven.UniVRPrettyCalendar [deploy].executor": "Run",
-    "Maven.UniVRPrettyCalendar [install].executor": "Run",
-    "Maven.UniVRPrettyCalendar [package].executor": "Run",
-    "Maven.UniVRPrettyCalendar [verify].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ettor/Documents/ItellijProjects/UniVRCalendar/UniVRPrettyCalendar",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Exec Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.UniVRPrettyCalendar [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.UniVRPrettyCalendar [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.UniVRPrettyCalendar [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.UniVRPrettyCalendar [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.UniVRPrettyCalendar [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.UniVRPrettyCalendar [verify].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ettor/Documents/ItellijProjects/UniVRCalendar/UniVRPrettyCalendar&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ettor\.m2\repository\org\eclipse\angus\angus-activation\2.0.2\angus-activation-2.0.2.jar!\META-INF" />
